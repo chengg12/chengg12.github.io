@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-06T18:13:33.584Z</updated>
+  <updated>2018-07-06T18:23:44.441Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hello world</title>
+    <link href="http://yoursite.com/2018/07/07/hello-world/"/>
+    <id>http://yoursite.com/2018/07/07/hello-world/</id>
+    <published>2018-07-06T17:15:14.000Z</published>
+    <updated>2018-07-06T18:23:44.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>生命不息折腾不止！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;生命不息折腾不止！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>测试</title>
     <link href="http://yoursite.com/2018/07/07/%E6%B5%8B%E8%AF%95/"/>
     <id>http://yoursite.com/2018/07/07/测试/</id>
     <published>2018-07-06T16:40:54.000Z</published>
-    <updated>2018-07-06T18:13:33.584Z</updated>
+    <updated>2018-07-06T18:23:08.589Z</updated>
     
     <content type="html"><![CDATA[<p>测试文章、分类和标签<br>2018年7月7日02:13:23</p>]]></content>
     
@@ -38,7 +60,9 @@
       <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="css - javascript" scheme="http://yoursite.com/tags/css-javascript/"/>
+      <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
