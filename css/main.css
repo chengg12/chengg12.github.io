@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #947dff;
+  background: #9c91f7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2661,9 +2661,50 @@ embed {
   display: inline-block;
 }
 .post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  display: inline-block;
+  position: relative;
+  margin: 50px;
+  padding: 20px;
+  background: #fafafa;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.8);
+  text-shadow: 0 1px 0 #fff;
+}
+.post::before,
+.post::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  box-shadow: 0 15px 10px rgba(0,0,0,0.5);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  z-index: -1;
+}
+.post::after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.post img {
+  vertical-align: bottom;
 }
