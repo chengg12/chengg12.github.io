@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-06T18:23:44.441Z</updated>
+  <updated>2018-07-11T15:38:36.866Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从零开始</title>
+    <link href="http://yoursite.com/2018/07/11/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/"/>
+    <id>http://yoursite.com/2018/07/11/从零开始/</id>
+    <published>2018-07-11T14:54:20.000Z</published>
+    <updated>2018-07-11T15:38:36.866Z</updated>
+    
+    <content type="html"><![CDATA[<p>一切事情都是从决定做于不做开始的。<br>开始之前先复习一下那些听腻了的名词吧。</p><h1 id="前端常用的名词"><a href="#前端常用的名词" class="headerlink" title="前端常用的名词"></a>前端常用的名词</h1><h2 id="www-万维网"><a href="#www-万维网" class="headerlink" title="www/万维网"></a>www/万维网</h2><p>全称：World wide Web<br>分为Web客户端和Web服务器程序。WWW可以让Web客户端（常用浏览器）访问浏览Web服务器上的页面。是一个由许多互相链接的超文本组成的系统，通过互联网访问。<br>万维网不等同于互联网，万维网只是互联网所提供额度服务之一，是靠互联网运行的一项服务。</p><h2 id="HTML-超文本标记语言"><a href="#HTML-超文本标记语言" class="headerlink" title="HTML/超文本标记语言"></a>HTML/超文本标记语言</h2><p>全称：Hyper Text Markup Language<br>超级文本标记语言是标准通用标记语言下的一个应用，也是一种规范，一种标准，它通过标记符号来标记要显示的网页中的各个部分。</p><h2 id="CSS-层叠样式表"><a href="#CSS-层叠样式表" class="headerlink" title="CSS/层叠样式表"></a>CSS/层叠样式表</h2><p>全称：Casecading Style Sheets<br>是一种用来表现HTML或XML等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。</p><h2 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h2><p>全称：Javascript<br>JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，用来给HTML网页增加动态功能。</p><p>#待续…</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一切事情都是从决定做于不做开始的。&lt;br&gt;开始之前先复习一下那些听腻了的名词吧。&lt;/p&gt;
+&lt;h1 id=&quot;前端常用的名词&quot;&gt;&lt;a href=&quot;#前端常用的名词&quot; class=&quot;headerlink&quot; title=&quot;前端常用的名词&quot;&gt;&lt;/a&gt;前端常用的名词&lt;/h1&gt;&lt;h2 i
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="基本概念" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
+    
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="基本概念" scheme="http://yoursite.com/tags/%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>hello world</title>
@@ -35,34 +65,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>测试</title>
-    <link href="http://yoursite.com/2018/07/07/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2018/07/07/测试/</id>
-    <published>2018-07-06T16:40:54.000Z</published>
-    <updated>2018-07-06T18:29:10.695Z</updated>
-    
-    <content type="html"><![CDATA[<p>测试文章、分类和标签<br>2018年7月7日02:13:23</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;测试文章、分类和标签&lt;br&gt;2018年7月7日02:13:23&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="css" scheme="http://yoursite.com/tags/css/"/>
-    
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
