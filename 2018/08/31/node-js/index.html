@@ -86,18 +86,18 @@
 
 
 
-<meta name="description" content="在了解到nide.js之前我是先知道了Hexo,在搭建自己的博客的时候对node.js产生了兴趣，当时正在学习php。 学习php的时候我用的是phpstudy,服务搭起来很简单。但是之后在linux系统上搭建服务时才发现原来还有那么多需要配置的东西。Apche或者Nginx开启Http服务器，mod_php5和php-cgi处理客户端的请求响应。 但是使用node.js直接就可以实现整个Http">
+<meta name="description" content="在了解到node.js之前我是先知道了Hexo,在搭建自己的博客的时候对node.js产生了兴趣，当时服务器语言正在学习php。 学习php的时候我用的是phpstudy,服务搭起来很简单。但是之后在linux系统上搭建服务时才发现原来还有那么多需要配置的东西。Apche或者Nginx开启Http服务器，mod_php5和php-cgi处理客户端的请求响应。 但是使用node.js直接就可以实现整">
 <meta name="keywords" content="node.js,js">
 <meta property="og:type" content="article">
 <meta property="og:title" content="node.js">
 <meta property="og:url" content="http://yoursite.com/2018/08/31/node-js/index.html">
 <meta property="og:site_name" content="Chen&#39;s blog">
-<meta property="og:description" content="在了解到nide.js之前我是先知道了Hexo,在搭建自己的博客的时候对node.js产生了兴趣，当时正在学习php。 学习php的时候我用的是phpstudy,服务搭起来很简单。但是之后在linux系统上搭建服务时才发现原来还有那么多需要配置的东西。Apche或者Nginx开启Http服务器，mod_php5和php-cgi处理客户端的请求响应。 但是使用node.js直接就可以实现整个Http">
+<meta property="og:description" content="在了解到node.js之前我是先知道了Hexo,在搭建自己的博客的时候对node.js产生了兴趣，当时服务器语言正在学习php。 学习php的时候我用的是phpstudy,服务搭起来很简单。但是之后在linux系统上搭建服务时才发现原来还有那么多需要配置的东西。Apche或者Nginx开启Http服务器，mod_php5和php-cgi处理客户端的请求响应。 但是使用node.js直接就可以实现整">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-31T15:13:24.295Z">
+<meta property="og:updated_time" content="2018-09-27T14:29:11.274Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="node.js">
-<meta name="twitter:description" content="在了解到nide.js之前我是先知道了Hexo,在搭建自己的博客的时候对node.js产生了兴趣，当时正在学习php。 学习php的时候我用的是phpstudy,服务搭起来很简单。但是之后在linux系统上搭建服务时才发现原来还有那么多需要配置的东西。Apche或者Nginx开启Http服务器，mod_php5和php-cgi处理客户端的请求响应。 但是使用node.js直接就可以实现整个Http">
+<meta name="twitter:description" content="在了解到node.js之前我是先知道了Hexo,在搭建自己的博客的时候对node.js产生了兴趣，当时服务器语言正在学习php。 学习php的时候我用的是phpstudy,服务搭起来很简单。但是之后在linux系统上搭建服务时才发现原来还有那么多需要配置的东西。Apche或者Nginx开启Http服务器，mod_php5和php-cgi处理客户端的请求响应。 但是使用node.js直接就可以实现整">
 
 
 
@@ -356,7 +356,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  353
+                  945
                 </span>
               
 
@@ -372,7 +372,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  4
                 </span>
               
             </div>
@@ -393,16 +393,33 @@
       
 
       
-        <p>在了解到nide.js之前我是先知道了Hexo,在搭建自己的博客的时候对node.js产生了兴趣，当时正在学习php。</p>
+        <p>在了解到node.js之前我是先知道了Hexo,在搭建自己的博客的时候对node.js产生了兴趣，当时服务器语言正在学习php。</p>
 <p>学习php的时候我用的是phpstudy,服务搭起来很简单。但是之后在linux系统上搭建服务时才发现原来还有那么多需要配置的东西。Apche或者Nginx开启Http服务器，mod_php5和php-cgi处理客户端的请求响应。</p>
 <p>但是使用node.js直接就可以实现整个Http服务器。</p>
 <a id="more"></a>
-<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>作为一个菜鸟，任何事物对我来说从零开始自学都是十分困难的，第一次配置php环境的时候用的phpstudy，这对我来说已经是比在windows server上配置站点文件简单多了。但是node.js直接再server.js文件里配置监听的端口，以及命令行，对我来说都很有趣。</p>
+<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>node.js直接在server.js文件里配置</p>
 <p>只要下载安装node.js,然后试试在cmd或者终端中node -v //查看node版本</p>
 <p>一切没错，新建一个server.js</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var http = require(&apos;http&apos;);//引入http模块</span><br><span class="line">http.createServer(function(req,res)&#123;</span><br><span class="line">	res.writeHead(200,&#123;&quot;Content-Type&quot;;&quot;text/html;charset=&apos;utf-8&apos;&quot;&#125;);</span><br><span class="line">	//发送http头部，状态200，文件类型html，字符集 utf-8</span><br><span class="line">	res.wreite(&apos;Hello world!&apos;);//返回相应信息</span><br><span class="line">	res.end();//结束响应</span><br><span class="line">&#125;).listen(8001);//监听8001端口</span><br></pre></td></tr></table></figure>
 <p>运行 node server.js 然后浏览器访问 localhost:8001 就可以看到 Hello world!了</p>
-
+<h1 id="模块"><a href="#模块" class="headerlink" title="模块"></a>模块</h1><p>在 Node 中模块分核心模块（Node提供的模块）和文件模块（用户编写的模块）</p>
+<p>定义使用的模块</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">//定义一个tool.js的模块</span><br><span class="line">//模块定义</span><br><span class="line">var tools = &#123;</span><br><span class="line">	sayHello: function()&#123;</span><br><span class="line">	return &apos;helllo NodeJS&apos;;&#125;,</span><br><span class="line">	add:function(x,y)&#123;</span><br><span class="line">	return x+y;&#125;</span><br><span class="line">&#125;;</span><br><span class="line">//模块接口的暴露</span><br><span class="line">exports.sayHello = tools.sayHello;</span><br><span class="line">exports.add = tools.add;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var http = require(&apos;http&apos;);</span><br><span class="line"></span><br><span class="line">//引入自定义的 tools.js 模块</span><br><span class="line">var tools = require(&apos;./tools&apos;);</span><br><span class="line"></span><br><span class="line">tools.sayHello(); //使用模块</span><br></pre></td></tr></table></figure>
+<h1 id="包"><a href="#包" class="headerlink" title="包"></a>包</h1><p>Nodejs中第三方模块由包组成，可以通过包来对一组具有相互依赖关系的模块进行统一管理。</p>
+<p>完全符合CommonJs规范的包目录一般包含如下文件<br>. package.json:包描述文件。<br>. bin:用于存放可执行二进制文件的目录。<br>. lib:用于存放JavaScript代码的目录。<br>. doc:用于存放文档的目录。</p>
+<p>可以通过npm下载各种各样的包。</p>
+<h1 id="NPM"><a href="#NPM" class="headerlink" title="NPM"></a>NPM</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">npm -v //查看 npm 版本</span><br><span class="line"></span><br><span class="line">npm install ModuleName //安装模块</span><br><span class="line"></span><br><span class="line">npm uninstall ModuleName //卸载模块</span><br><span class="line"></span><br><span class="line">npm list //查看当前目录下以安装的node包</span><br><span class="line"></span><br><span class="line">npm info ModuleName //查看模块的版本</span><br><span class="line"></span><br><span class="line">npm install ModuleName@1.1.0 //指定版本安装</span><br></pre></td></tr></table></figure>
+<h1 id="package-js"><a href="#package-js" class="headerlink" title="package.js"></a>package.js</h1><p>package.js定义了这个项目所需要的各种模块，以及项目的配置信息。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm init</span><br><span class="line">npm init -yes //创建packsge.json</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">//package.json文件</span><br><span class="line">&#123;</span><br><span class="line">	&quot;name&quot;:&quot;test&quot;,</span><br><span class="line">	&quot;version&quot;:&quot;1.1.0&quot;,</span><br><span class="line">	&quot;main&quot;:&quot;main.js&quot;,</span><br><span class="line">	&quot;keywords&quot;:&#123;</span><br><span class="line">		&quot;test&quot;</span><br><span class="line">	&#125;,</span><br><span class="line">	&quot;author&quot;:&quot;wade&quot;,</span><br><span class="line">	&quot;license&quot;:&quot;MIT&quot;,</span><br><span class="line">	&quot;dependencies&quot;:&#123;</span><br><span class="line">		&quot;express&quot;:&quot;^4.10.1&quot;</span><br><span class="line">	&#125;,</span><br><span class="line">	&quot;devDependencies&quot;:&#123;</span><br><span class="line">		&quot;jslint&quot;:&quot;^0.6.5&quot;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//安装模块并把模块写入package.json</span><br><span class="line">npm install babel-cli --save-dev</span><br><span class="line">npm install 模块 --seave</span><br><span class="line">npm install 模块 -- save-dev</span><br></pre></td></tr></table></figure>
+<p>使用 npm install node_module -save 自动更新 dependencies 字段值；<br>使用 npm install node_module -save_dev 自动更新devDepencies字段值；</p>
+<p>dependencie 配置当前程序所依赖的其他包<br>devDependencie 配置当前程序所依赖的其他包，只会下载模块，而不下载这些模块的测试和文档框架</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&quot;dependencies&quot;:&#123;</span><br><span class="line">	&quot;ejs&quot;:&quot;^2.3.4&quot;</span><br><span class="line">	&quot;express&quot;:&quot;^4.13.3&quot;,</span><br><span class="line">	&quot;formidable&quot;:&quot;^1.0.17&quot;</span><br><span class="line">&#125;</span><br><span class="line">/*</span><br><span class="line">^表示第一位版本号不变，后两位取最新</span><br><span class="line">~表示前两位不变，最后一位取最新</span><br><span class="line">*表示全部取最新</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
+<h1 id="安装淘宝镜像"><a href="#安装淘宝镜像" class="headerlink" title="安装淘宝镜像"></a>安装淘宝镜像</h1><p><a href="http://www.npmjs.org" target="_blank" rel="noopener">http://www.npmjs.org</a> npm 包官网<br><a href="http://npm.taobao.org" target="_blank" rel="noopener">http://npm.taobao.org</a> 淘宝 npm 镜像官网</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=http://registry.mpm.taobao.org</span><br></pre></td></tr></table></figure>
+<h1 id="fs模块"><a href="#fs模块" class="headerlink" title="fs模块"></a>fs模块</h1><h2 id="fs-stat-检测是文件还是目录"><a href="#fs-stat-检测是文件还是目录" class="headerlink" title="fs.stat 检测是文件还是目录"></a>fs.stat 检测是文件还是目录</h2><h2 id="fs-mkdir-创建目录"><a href="#fs-mkdir-创建目录" class="headerlink" title="fs.mkdir 创建目录"></a>fs.mkdir 创建目录</h2><h2 id="fs-writeFile-创建写入文件"><a href="#fs-writeFile-创建写入文件" class="headerlink" title="fs.writeFile 创建写入文件"></a>fs.writeFile 创建写入文件</h2><h2 id="fs-appendFile-追加文件"><a href="#fs-appendFile-追加文件" class="headerlink" title="fs.appendFile 追加文件"></a>fs.appendFile 追加文件</h2><h2 id="fs-readFile-读取文件"><a href="#fs-readFile-读取文件" class="headerlink" title="fs.readFile 读取文件"></a>fs.readFile 读取文件</h2><h2 id="fs-rename-重命名"><a href="#fs-rename-重命名" class="headerlink" title="fs.rename 重命名"></a>fs.rename 重命名</h2><h2 id="fs-rmdir-删除目录"><a href="#fs-rmdir-删除目录" class="headerlink" title="fs.rmdir 删除目录"></a>fs.rmdir 删除目录</h2><h2 id="fs-unlink-删除文件"><a href="#fs-unlink-删除文件" class="headerlink" title="fs.unlink 删除文件"></a>fs.unlink 删除文件</h2><h2 id="fs-createReadStream-从文件流中读取数据"><a href="#fs-createReadStream-从文件流中读取数据" class="headerlink" title="fs.createReadStream 从文件流中读取数据"></a>fs.createReadStream 从文件流中读取数据</h2><h2 id="fs-createWriteStream-写入文件"><a href="#fs-createWriteStream-写入文件" class="headerlink" title="fs.createWriteStream 写入文件"></a>fs.createWriteStream 写入文件</h2>
       
     </div>
     
@@ -587,7 +604,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#开始"><span class="nav-number">1.</span> <span class="nav-text">开始</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#开始"><span class="nav-number">1.</span> <span class="nav-text">开始</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#模块"><span class="nav-number">2.</span> <span class="nav-text">模块</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#包"><span class="nav-number">3.</span> <span class="nav-text">包</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NPM"><span class="nav-number">4.</span> <span class="nav-text">NPM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#package-js"><span class="nav-number">5.</span> <span class="nav-text">package.js</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#安装淘宝镜像"><span class="nav-number">6.</span> <span class="nav-text">安装淘宝镜像</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#fs模块"><span class="nav-number">7.</span> <span class="nav-text">fs模块</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-stat-检测是文件还是目录"><span class="nav-number">7.1.</span> <span class="nav-text">fs.stat 检测是文件还是目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-mkdir-创建目录"><span class="nav-number">7.2.</span> <span class="nav-text">fs.mkdir 创建目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-writeFile-创建写入文件"><span class="nav-number">7.3.</span> <span class="nav-text">fs.writeFile 创建写入文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-appendFile-追加文件"><span class="nav-number">7.4.</span> <span class="nav-text">fs.appendFile 追加文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-readFile-读取文件"><span class="nav-number">7.5.</span> <span class="nav-text">fs.readFile 读取文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-rename-重命名"><span class="nav-number">7.6.</span> <span class="nav-text">fs.rename 重命名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-rmdir-删除目录"><span class="nav-number">7.7.</span> <span class="nav-text">fs.rmdir 删除目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-unlink-删除文件"><span class="nav-number">7.8.</span> <span class="nav-text">fs.unlink 删除文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-createReadStream-从文件流中读取数据"><span class="nav-number">7.9.</span> <span class="nav-text">fs.createReadStream 从文件流中读取数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fs-createWriteStream-写入文件"><span class="nav-number">7.10.</span> <span class="nav-text">fs.createWriteStream 写入文件</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -644,7 +661,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共1.6k字</span>
+  <span class="post-count">博客全站共2.2k字</span>
 </div>
         
 
