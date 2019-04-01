@@ -46,13 +46,13 @@
     <link href="http://yoursite.com/2018/12/14/vmix/"/>
     <id>http://yoursite.com/2018/12/14/vmix/</id>
     <published>2018-12-13T16:36:26.799Z</published>
-    <updated>2018-12-23T07:55:14.439Z</updated>
+    <updated>2019-03-13T05:28:05.976Z</updated>
     
-    <content type="html"><![CDATA[<p>vmix Pro 20是一款来自澳大利亚的视频混合软件，vmix17是目前的最新版本，可以完美支持Windows 7/8以及最新的Windows 10系统，其强大之处在于用电脑软件某种程度上代替了专业混合设备，支持多种视频格式，适用于演播室多通道摄像机切换及虚拟演播场景、网络直播，如今在很多需要用到投影仪的现场。<br><img src="https://upload.cc/i1/2018/12/23/qezkr3.png"></p><a id="more"></a><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>链接：<a href="https://pan.baidu.com/s/1XT4FVwV9eOTeoZDwP4G33g" target="_blank" rel="noopener">https://pan.baidu.com/s/1XT4FVwV9eOTeoZDwP4G33g</a><br>提取码：7xx5 </p><p>1，正常安装软件（为防止出现0值错误，不建议安装在C盘）</p><p>2，打开软件，选择“注册为免费的基本版”。随意填写邮箱地址，软件打开后关闭。</p><p>3，复制”0Harmony.dll”,”vMixTallyLightsLibrary.dll”到软件安装目录下，替换原文件。</p><p>4，使用windows防火墙禁止vMix.exe 和 vMix64.exe联网。<br>   <img src="https://upload.cc/i1/2018/12/23/xwpTBn.png"><br>   注意：你需要在防火墙入站规则和出站规则中禁止vMix.exe ， vMix64.exe联网。软件安装完成后会自动添加vMix的入站规则，默认是允许联网，我们将其修改为禁止联网保存。然后参照这篇文章新建出站规则，禁止vMix.exe ， vMix64.exe联网即可。</p><p>5，软件会自动变成Pro版本，并且可以完美使用Pro的所有功能。(关于里面显示有效期一年是永久为一年)</p>]]></content>
+    <content type="html"><![CDATA[<p>vmix Pro 20是一款来自澳大利亚的视频混合软件，可以完美支持Windows 7/8以及最新的Windows 10系统，其强大之处在于用电脑软件某种程度上代替了专业混合设备，支持多种视频格式，适用于演播室多通道摄像机切换及虚拟演播场景、网络直播，如今在很多需要用到投影仪的现场。<br><img src="https://upload.cc/i1/2018/12/23/qezkr3.png"></p><a id="more"></a><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>官网：<a href="https://www.vmix.com" target="_blank" rel="noopener">https://www.vmix.com</a><br>链接：<a href="https://pan.baidu.com/s/1XT4FVwV9eOTeoZDwP4G33g" target="_blank" rel="noopener">https://pan.baidu.com/s/1XT4FVwV9eOTeoZDwP4G33g</a><br>提取码：7xx5 </p><p>1，正常安装软件（为防止出现0值错误，不建议安装在C盘）</p><p>2，打开软件，选择“注册为免费的基本版”。随意填写邮箱地址，软件打开后关闭。</p><p>3，复制”0Harmony.dll”,”vMixTallyLightsLibrary.dll”到软件安装目录下，替换原文件。</p><p>4，使用windows防火墙禁止vMix.exe 和 vMix64.exe联网。<br>   <img src="https://upload.cc/i1/2018/12/23/xwpTBn.png"><br>   注意：你需要在防火墙入站规则和出站规则中禁止vMix.exe ， vMix64.exe联网。软件安装完成后会自动添加vMix的入站规则，默认是允许联网，我们将其修改为禁止联网保存。然后参照这篇文章新建出站规则，禁止vMix.exe ， vMix64.exe联网即可。</p><p>5，软件会自动变成Pro版本，并且可以完美使用Pro的所有功能。(关于里面显示有效期一年是永久为一年)</p><h1 id="界面"><a href="#界面" class="headerlink" title="界面"></a>界面</h1>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;vmix Pro 20是一款来自澳大利亚的视频混合软件，vmix17是目前的最新版本，可以完美支持Windows 7/8以及最新的Windows 10系统，其强大之处在于用电脑软件某种程度上代替了专业混合设备，支持多种视频格式，适用于演播室多通道摄像机切换及虚拟演播场景、网络直播，如今在很多需要用到投影仪的现场。&lt;br&gt;&lt;img src=&quot;https://upload.cc/i1/2018/12/23/qezkr3.png&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;vmix Pro 20是一款来自澳大利亚的视频混合软件，可以完美支持Windows 7/8以及最新的Windows 10系统，其强大之处在于用电脑软件某种程度上代替了专业混合设备，支持多种视频格式，适用于演播室多通道摄像机切换及虚拟演播场景、网络直播，如今在很多需要用到投影仪的现场。&lt;br&gt;&lt;img src=&quot;https://upload.cc/i1/2018/12/23/qezkr3.png&quot;&gt;&lt;/p&gt;
     
     </summary>
     
