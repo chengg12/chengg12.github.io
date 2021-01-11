@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-02T15:58:05.844Z</updated>
+  <updated>2020-06-08T11:44:36.335Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ArKaos_GrandVJ_UserGuide (1)</title>
+    <link href="http://yoursite.com/2020/06/08/ArKaos_GrandVJ_UserGuide/"/>
+    <id>http://yoursite.com/2020/06/08/ArKaos_GrandVJ_UserGuide/</id>
+    <published>2020-06-08T10:27:53.000Z</published>
+    <updated>2020-06-08T11:44:36.335Z</updated>
+    
+    <content type="html"><![CDATA[<p>GrandVJ使用说明书<br>GrandVJ是一款功能强大的音、视频混合处理软件，它集成操纵、触发、混合视频声音剪辑以及现场摄相机编辑等功能，用户可以将视频与音频结合设计出全新的混音效果。</p><a id="more"></a><h1 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>GrandVJ是一个允许您无缝集成实时视听混合的应用程序任何类型的表演情况。提供高达16层的视频，并吹嘘广泛的效果和控制参数，可通过MIDI、计算机完全控制键盘或外部定序器。</p><p>GrandVJ设计用于多视频输出计算机设置。主视频输出用于显示用户界面和预览，而下一个视频输出将全分辨率图像发送到外部硬件显示器，如投影仪、等离子屏幕、LED墙、视频混音器等。</p><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>软件界面包括一个主窗口，显示所需的所有信息</p><p>在表演中。它可以显示16个单独的图层预览以及主视图预览（发送到全屏视频输出的图像）和参数面板每个层的设置。</p><p>参数可以通过用户界面修改，从计算机键盘、MIDI控制器或OSC控制器。</p><p>第一次启动软件时，默认情况下将禁用全屏输出。如果你想的话将全屏输出发送到计算机的辅助视频输出，或者激活全屏选择View（视图）切换全屏，或在Windows上按Ctrl+F，在Mac上按Cmd+F。</p><p>如果没有正确的双输出设置，主屏幕上的全屏将被激活，</p><p>更换软件接口。要退出全屏模式，请再次按Ctrl+F/Cmd+F。</p><h2 id="应用模式"><a href="#应用模式" class="headerlink" title="应用模式"></a>应用模式</h2><p>根据你想如何在GrandVJ中混合你的视觉效果，你可以选择两种不同的模式。有关应用程序模式的更多信息，请参见第14页“应用程序模式”。</p><p> 合成器模式</p><p> 在这里你可以像演奏乐器一样演奏视觉效果。定义单元格及其属性和您通过按计算机键盘/MIDI控制器。</p><p> 混频器模式</p><p> 在这里您可以访问16个单独的层并单独控制它们。在这个模式下，GrandVJ成为一个功能齐全的16层软件视频混音器。</p><h2 id="输出模式"><a href="#输出模式" class="headerlink" title="输出模式"></a>输出模式</h2><p>输出模式定义如何/在何处配置GrandVJ以输出其视觉效果。输出模式它们独立于应用程序模式，可以在Synth模式和Mixer模式下工作。</p><p>您将在第62页“显示”中找到有关输出模式的更多信息</p><p>即时模式</p><p>在即时模式下，GrandVJ直接将混音输出到一组分辨率相同的显示器。软件将此集合视为单个输出。</p><p>视频映射器模式（仅限GrandVJ XT）</p><p>当配置为在VideoMapper模式下运行时，GrandVJ XT将从每个层到虚拟“曲面”，如先前在VideoMapper扩展中定义的。一个输出罐显示全屏视觉效果或多个映射视觉效果的组合。</p><h2 id="专业术语"><a href="#专业术语" class="headerlink" title="专业术语"></a>专业术语</h2><p> Visuals:Visual是一个通用术语，它包含了生成帧的所有内容：这可以是图像、视频、相机流、生成器或flash动画。</p><p> Effects：特效是允许你改变视觉效果的实时处理器。效果的完整集合可在浏览面板的“效果”选项卡中找到。</p><p> Cells:Cells是占位符，用于存储视觉/效果/透明度/复制模式/位置组合。 当您“触发”一个单元格时，您会将单元格的内容发送到图形引擎。 在合成模式下，触发单元将它们堆叠在一起。 在混频器模式，触发单元会将其发送到当前选定的图层。</p><p> Banks：Banks是构成迷你图书馆的单元格的组合。 有两组，分别是16个Banks。第一个库集根据一个矩阵进行布局，并称为“矩阵库集”。 的第二个形状为MIDI键盘布局，并称为“键盘库集”。 的可以更改矩阵组的大小以匹配您要使用的任何控制器布局。</p><p> Layers：Layers表示可视管道中的堆栈。 每层都有一组属性匹配单元格属性：一种视觉效果，一种效果，透明度，复制模式，色度/亮度键控，位置等… GrandVJ最多可以显示16层。 在合成模式下，图层会根据您触发单元格及其方式的方式自动分配前景/背景属性。 在混合器模式下，您可以访问所有图层属性个别地。</p><p> Mapping：映射表示一种将元素从软件“连接”到控件的方法设备（MIDI控制器，MIDI音序器或计算机键盘）。 您可以映射矩阵库单元触发器，控制图层/单元的属性，以及一些常规控件该软件。</p><p> Project：Project是存储在项目文件中的库和单元格定义的集合供以后使用。</p><p> Previews：允许您预览图层或主输出的内容。 主要预览窗口始终显示，并显示发送到主输出的内容。 在混音器模式下，单个图层预览也可用。</p><p> Transition：转场是特殊效果，可在触发之间提供平滑的变化单元或甲板。 可用过渡的完整集合可以在过渡中找到浏览面板的标签。</p><p> Display：显示是使用以下方法连接到计算机图形卡的设备：DVI，HDMI，DisplayPort或VGA连接器。</p><p> Output：输出代表视频混合的目的地。 虽然VideoMapper模式允许使用多个不同的输出，即时模式仅允许一个。</p><h1 id="界面介绍"><a href="#界面介绍" class="headerlink" title="界面介绍"></a>界面介绍</h1><p>本节介绍了不同的应用程序面板及其功能。 取决于您正在使用的应用程序模式（合成器或混音器），并非所有面板都可用。具体来说，在合成器模式下，“混音器”面板不可用。</p><p>注意：<br>大多数面板可调整大小以适应各种屏幕分辨率和软件会记住合成器和混音器模式的不同配置。 如果你有足够的分辨率，您可以解开参数面板和浏览器的选项卡。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;GrandVJ使用说明书&lt;br&gt;GrandVJ是一款功能强大的音、视频混合处理软件，它集成操纵、触发、混合视频声音剪辑以及现场摄相机编辑等功能，用户可以将视频与音频结合设计出全新的混音效果。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="软件" scheme="http://yoursite.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+      <category term="软件" scheme="http://yoursite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>读《岛上书店》有感</title>
